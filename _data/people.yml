@@ -1,0 +1,37 @@
+# Photos go in assets/img/people/. Leave `photo` empty to show initials.
+director:
+  name: "[Director Name]"
+  role: Lecturer / Principal Investigator
+  photo:
+  bio: >-
+    [Placeholder: short bio of the lab director, research interests and background.]
+  links:
+    web: "#"
+    scholar: "#"
+    email: placeholder@st-andrews.ac.uk
+    linkedin: "#"
+
+members:
+  - name: "[Member Name]"
+    role: Research Fellow
+    links: { web: "#", email: "placeholder@st-andrews.ac.uk", linkedin: "#" }
+  - name: "[Member Name]"
+    role: Ph.D. Student
+    links: { web: "#", email: "placeholder@st-andrews.ac.uk", linkedin: "#" }
+  - name: "[Member Name]"
+    role: Ph.D. Student
+    links: { web: "#", email: "placeholder@st-andrews.ac.uk" }
+  - name: "[Member Name]"
+    role: M.Sc. Student
+    links: { email: "placeholder@st-andrews.ac.uk" }
+
+alumni:
+  - name: "[Alumni Name]"
+    role: Ph.D. 2025 → [Next position]
+    links: { web: "#" }
+
+past:
+  - group: Visiting Researchers
+    names: ["[Name]", "[Name]"]
+  - group: Undergraduate Students
+    names: ["[Name]", "[Name]", "[Name]"]

@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2 class="footer-title">{{ site.title }}</h2>
+      <p class="footer-full">{{ site.full_name }}</p>
+      <address>
+        {{ site.school }}<br>
+        <a href="{{ site.university.url }}">{{ site.university.name }}</a><br>
+        {% for line in site.address %}{{ line }}<br>{% endfor %}
+      </address>
+      <div class="social">
+        {% for s in site.social %}
+          {% assign key = s[0] %}<a href="{{ s[1] }}" aria-label="{{ key }}">{% include icon.html name=key %}</a>
+        {% endfor %}
+        {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="email">{% include icon.html name="email" %}</a>{% endif %}
+      </div>
+    </div>
+    <div>
+      <h3>Research topics</h3>
+      <ul>
+        {% for r in site.data.research limit:4 %}
+          <li><a href="{{ '/research.html' | relative_url }}#{{ r.title | slugify }}">{{ r.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="{{ '/people.html' | relative_url }}">Meet the team</a></li>
+        <li><a href="{{ '/publications.html' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/contact.html' | relative_url }}">Join us</a></li>
+        <li><a href="{{ site.social.github }}">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    © {{ site.time | date: '%Y' }} · {{ site.title }} · {{ site.university.name }}
+  </div>
+</footer>

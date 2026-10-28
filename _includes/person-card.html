@@ -1,0 +1,20 @@
+{% assign p = include.person %}
+<article class="person-card{% if include.large %} person-card--large{% endif %}">
+  <div class="avatar">
+    {% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {% else %}{% assign parts = p.name | remove: '[' | remove: ']' | split: ' ' %}<span>{% for w in parts limit:2 %}{{ w | slice: 0 }}{% endfor %}</span>{% endif %}
+  </div>
+  <div class="person-body">
+    <h3>{{ p.name }}</h3>
+    <p class="role">{{ p.role }}</p>
+    {% if include.large and p.bio %}<p class="bio">{{ p.bio }}</p>{% endif %}
+    {% if p.links %}
+    <div class="person-links">
+      {% for l in p.links %}
+        {% if l[0] == 'email' %}<a href="mailto:{{ l[1] }}" aria-label="Email {{ p.name }}">{% include icon.html name='email' %}</a>
+        {% else %}{% assign key = l[0] %}<a href="{{ l[1] }}" aria-label="{{ key }}">{% include icon.html name=key %}</a>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>

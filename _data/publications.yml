@@ -1,0 +1,13 @@
+# Grouped by year, newest first. Remove this file's entries to show only the Scholar link.
+- year: 2026
+  items:
+    - authors: "[A. Author], [B. Author], [C. Author]"
+      title: "[Paper title]"
+      venue: "[Conference / Journal 2026]"
+      links: { paper: "#", project: "#", code: "#" }
+- year: 2025
+  items:
+    - authors: "[A. Author], [B. Author]"
+      title: "[Paper title]"
+      venue: "[Conference / Journal 2025]"
+      links: { paper: "#" }

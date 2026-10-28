@@ -1,0 +1,25 @@
+# Home-page tiles. Images (gif/jpg/png) go in assets/img/projects/.
+- title: "[Project One]"
+  blurb: "[Venue 2026] · One-line description of the project."
+  image: /assets/img/projects/placeholder-1.svg
+  link: "#"
+- title: "[Project Two]"
+  blurb: "[Venue 2026] · One-line description of the project."
+  image: /assets/img/projects/placeholder-2.svg
+  link: "#"
+- title: "[Project Three]"
+  blurb: "[Venue 2025] · One-line description of the project."
+  image: /assets/img/projects/placeholder-3.svg
+  link: "#"
+- title: "[Project Four]"
+  blurb: "[Venue 2025] · One-line description of the project."
+  image: /assets/img/projects/placeholder-1.svg
+  link: "#"
+- title: "[Project Five]"
+  blurb: "[Venue 2025] · One-line description of the project."
+  image: /assets/img/projects/placeholder-2.svg
+  link: "#"
+- title: "[Project Six]"
+  blurb: "[Venue 2024] · One-line description of the project."
+  image: /assets/img/projects/placeholder-3.svg
+  link: "#"

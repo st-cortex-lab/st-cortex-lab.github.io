@@ -1,0 +1,26 @@
+title: St CORTEX Lab
+full_name: Smart Cognitive Robot Dexterity Lab
+tagline: University of St Andrews
+description: >-
+  St CORTEX Lab (Smart Cognitive Robot Dexterity Lab) at the University of St Andrews.
+url: "https://st-cortex-lab.github.io"
+baseurl: ""
+
+university:
+  name: University of St Andrews
+  url: https://www.st-andrews.ac.uk
+school: School of Computer Science   # placeholder
+address:
+  - Jack Cole Building, North Haugh
+  - St Andrews, KY16 9SX, Scotland
+
+email: placeholder@st-andrews.ac.uk
+scholar: https://scholar.google.com/   # replace with the director's Scholar profile
+social:
+  github: https://github.com/st-cortex-lab
+  # x: https://x.com/...
+  # youtube: https://youtube.com/@...
+  # linkedin: https://www.linkedin.com/company/...
+
+markdown: kramdown
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, .bundle]

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Publications
+---
+<section class="page-head">
+  <div class="container">
+    <h1>Publications</h1>
+    <p class="lead">For the complete and up-to-date list, see <a href="{{ site.scholar }}">Google Scholar</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow">
+    {% for y in site.data.publications %}
+      <h2 class="year">{{ y.year }}</h2>
+      <ol class="pubs">
+        {% for p in y.items %}
+        <li>
+          <p class="pub-title">{{ p.title }}</p>
+          <p class="pub-authors">{{ p.authors }}</p>
+          <p class="pub-venue">{{ p.venue }}
+            {% for l in p.links %}<a class="tag" href="{{ l[1] }}">{{ l[0] }}</a>{% endfor %}
+          </p>
+        </li>
+        {% endfor %}
+      </ol>
+    {% endfor %}
+  </div>
+</section>

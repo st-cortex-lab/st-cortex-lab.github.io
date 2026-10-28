@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">{{ site.school }} · {{ site.university.name }}</p>
+    <h1>{{ site.full_name }}</h1>
+    <p class="lead">
+      [Placeholder: two-sentence mission statement. St CORTEX Lab studies how robots can acquire
+      human-like dexterity by combining perception, learning and cognitive models of action.]
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/research.html' | relative_url }}">Our research</a>
+      <a class="btn btn-ghost" href="{{ '/contact.html' | relative_url }}">Join the lab</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Highlighted projects</h2>
+      <a class="more" href="{{ '/publications.html' | relative_url }}">All publications →</a>
+    </div>
+    <div class="project-grid">
+      {% for pr in site.data.projects %}{% include project-card.html project=pr %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="section section-alt">
+  <div class="container narrow">
+    <h2>News</h2>
+    <ul class="news">
+      {% for n in site.data.news limit:5 %}
+        <li><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: '%b %Y' }}</time><span>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

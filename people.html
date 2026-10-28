@@ -1,0 +1,38 @@
+---
+layout: default
+title: People
+---
+<section class="page-head">
+  <div class="container"><h1>People</h1></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="label">Director</h2>
+    {% include person-card.html person=site.data.people.director large=true %}
+
+    <h2 class="label">Meet the team</h2>
+    <div class="people-grid">
+      {% for p in site.data.people.members %}{% include person-card.html person=p %}{% endfor %}
+    </div>
+
+    {% if site.data.people.alumni.size > 0 %}
+    <h2 class="label">Alumni</h2>
+    <div class="people-grid">
+      {% for p in site.data.people.alumni %}{% include person-card.html person=p %}{% endfor %}
+    </div>
+    {% endif %}
+
+    {% if site.data.people.past.size > 0 %}
+    <h2 class="label">Past members</h2>
+    <div class="past-groups">
+      {% for g in site.data.people.past %}
+      <div>
+        <h3>{{ g.group }}</h3>
+        <ul>{% for n in g.names %}<li>{{ n }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

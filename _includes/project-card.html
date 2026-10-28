@@ -1,0 +1,8 @@
+{% assign pr = include.project %}
+<a class="project-card" href="{{ pr.link }}">
+  <div class="project-media"><img src="{{ pr.image | relative_url }}" alt="{{ pr.title }}" loading="lazy"></div>
+  <div class="project-body">
+    <h3>{{ pr.title }}</h3>
+    <p>{{ pr.blurb }}</p>
+  </div>
+</a>

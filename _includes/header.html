@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="saltire-rule" aria-hidden="true"></div>
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" title="{{ site.title }} · {{ site.full_name }}">
+      <!-- Slot for an approved University of St Andrews logo, e.g.
+           <img src="{{ '/assets/img/uni-logo.svg' | relative_url }}" alt="University of St Andrews" class="brand-logo"> -->
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40"><rect width="40" height="40" rx="6" fill="currentColor"/><path d="M6 6l28 28M34 6L6 34" stroke="#fff" stroke-width="5" stroke-linecap="square"/></svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-sub">{{ site.university.name }}</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      {% for item in site.data.navigation %}
+        {% assign active = false %}
+        {% if page.url == item.url or page.url == '/index.html' and item.url == '/' %}{% assign active = true %}{% endif %}
+        <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
