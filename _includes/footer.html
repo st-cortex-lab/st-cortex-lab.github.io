@@ -18,7 +18,7 @@
     <div>
       <h3>Research topics</h3>
       <ul>
-        {% for r in site.data.research limit:4 %}
+        {% for r in site.data.research limit:5 %}
           <li><a href="{{ '/research.html' | relative_url }}#{{ r.title | slugify }}">{{ r.title }}</a></li>
         {% endfor %}
       </ul>

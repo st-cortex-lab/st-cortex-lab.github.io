@@ -1,6 +1,6 @@
 {% assign p = include.person %}
 <article class="person-card{% if include.large %} person-card--large{% endif %}">
-  <div class="avatar">
+  <div class="avatar{% if p.photo %} avatar--photo{% endif %}">
     {% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
     {% else %}{% assign parts = p.name | remove: '[' | remove: ']' | remove_first: 'Prof ' | remove_first: 'Dr ' | split: ' ' %}<span>{{ parts.first | slice: 0 }}{% if parts.size > 1 %}{{ parts.last | slice: 0 }}{% endif %}</span>{% endif %}
   </div>

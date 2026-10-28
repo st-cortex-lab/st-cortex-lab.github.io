@@ -1,19 +1,22 @@
 - title: Deformable Object Manipulation
   text: >-
-    Cloth and garments have near-infinite configurations, self-occlusion and complex dynamics.
-    We develop methods that let robots flatten, fold and shape fabrics from crumpled states,
-    a core capability for assistive and domestic robots.
-- title: World Models and Planning
+    Cloth, garments and other deformable objects have near-infinite configurations, self-occlusion
+    and complex dynamics. We develop methods that let robots flatten, fold and shape them from
+    crumpled states, as in PlaNet-ClothPick, JA-TN, DRAPER and LaGarNet.
+- title: Tactile Manipulation
   text: >-
-    We learn latent dynamics models of how deformable objects respond to robot actions and plan
-    in that latent space, as in PlaNet-ClothPick and LaGarNet, so robots can reason about the
-    consequences of an action before taking it.
-- title: Learning Dexterous Pick-and-Place Policies
+    Vision alone cannot tell a robot how hard it is gripping, whether a grasp is slipping or how
+    many layers of fabric it is holding. We study how touch sensing can guide contact-rich
+    manipulation and make grasping more reliable.
+- title: Dexterous Manipulation
   text: >-
-    We study data-driven controllers, from imitation to reinforcement learning, that infer where
-    and how to grasp and place, such as joint-probability action inference in JA-TN.
-- title: Real-Robot Deployment and Evaluation
+    We aim for robot hands and grippers that handle objects with human-like skill, from precise
+    pick-and-place to in-hand manipulation, and that transfer from simulation to real hardware.
+- title: Lifelong Robot Learning
   text: >-
-    Policies trained in simulation must hold up on real hardware. We build pipelines for robust
-    sim-to-real deployment (DRAPER) and open frameworks for fair, reproducible evaluation of
-    control algorithms (Agent-Arena).
+    Robots in homes and workplaces meet new objects and tasks throughout their lives. We study how
+    they can keep learning from experience and demonstrations without forgetting earlier skills.
+- title: World Models
+  text: >-
+    We learn latent dynamics models of how the world responds to a robot's actions and plan inside
+    them, so robots can predict the consequences of an action before taking it.
