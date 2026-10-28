@@ -1,12 +1,19 @@
-- title: "[Research Theme One]"
+- title: Deformable Object Manipulation
   text: >-
-    [Placeholder: two or three sentences describing this research theme, its motivation and the lab's approach.]
-- title: "[Research Theme Two]"
+    Cloth and garments have near-infinite configurations, self-occlusion and complex dynamics.
+    We develop methods that let robots flatten, fold and shape fabrics from crumpled states,
+    a core capability for assistive and domestic robots.
+- title: World Models and Planning
   text: >-
-    [Placeholder: two or three sentences describing this research theme, its motivation and the lab's approach.]
-- title: "[Research Theme Three]"
+    We learn latent dynamics models of how deformable objects respond to robot actions and plan
+    in that latent space, as in PlaNet-ClothPick and LaGarNet, so robots can reason about the
+    consequences of an action before taking it.
+- title: Learning Dexterous Pick-and-Place Policies
   text: >-
-    [Placeholder: two or three sentences describing this research theme, its motivation and the lab's approach.]
-- title: "[Research Theme Four]"
+    We study data-driven controllers, from imitation to reinforcement learning, that infer where
+    and how to grasp and place, such as joint-probability action inference in JA-TN.
+- title: Real-Robot Deployment and Evaluation
   text: >-
-    [Placeholder: two or three sentences describing this research theme, its motivation and the lab's approach.]
+    Policies trained in simulation must hold up on real hardware. We build pipelines for robust
+    sim-to-real deployment (DRAPER) and open frameworks for fair, reproducible evaluation of
+    control algorithms (Agent-Arena).

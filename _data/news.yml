@@ -1,7 +1,11 @@
 # Newest first. Shown on the home page (latest 5).
 - date: 2026-10-28
   text: "St CORTEX Lab website launched."
-- date: 2026-09-01
-  text: "[Placeholder: a new Ph.D. student joins the lab.]"
-- date: 2026-06-15
-  text: "[Placeholder: paper accepted at a conference.]"
+- date: 2025-08-01
+  text: "DRAPER presented at IEEE CASE 2025; LaGarNet preprint released on arXiv."
+- date: 2025-04-01
+  text: "Agent-Arena, a general framework for evaluating control algorithms, released on arXiv."
+- date: 2024-11-06
+  text: "JA-TN presented at the Conference on Robot Learning (CoRL 2024) in Munich."
+- date: 2024-01-08
+  text: "PlaNet-ClothPick presented at IEEE/SICE SII 2024."

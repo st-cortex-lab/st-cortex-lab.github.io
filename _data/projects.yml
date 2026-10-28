@@ -1,25 +1,25 @@
 # Home-page tiles. Images (gif/jpg/png) go in assets/img/projects/.
-- title: "[Project One]"
-  blurb: "[Venue 2026] · One-line description of the project."
+- title: LaGarNet
+  blurb: "arXiv 2025 · Goal-conditioned recurrent state-space models for pick-and-place garment flattening."
   image: /assets/img/projects/placeholder-1.svg
-  link: "#"
-- title: "[Project Two]"
-  blurb: "[Venue 2026] · One-line description of the project."
+  link: https://arxiv.org/abs/2508.17070
+- title: DRAPER
+  blurb: "IEEE CASE 2025 · Robust real-robot deployment and reliable evaluation of pick-and-place cloth-shaping controllers."
   image: /assets/img/projects/placeholder-2.svg
-  link: "#"
-- title: "[Project Three]"
-  blurb: "[Venue 2025] · One-line description of the project."
+  link: https://doi.org/10.1109/CASE58245.2025.11163865
+- title: Agent-Arena
+  blurb: "arXiv 2025 · A general framework for evaluating control algorithms."
   image: /assets/img/projects/placeholder-3.svg
-  link: "#"
-- title: "[Project Four]"
-  blurb: "[Venue 2025] · One-line description of the project."
+  link: https://arxiv.org/abs/2504.06468
+- title: JA-TN
+  blurb: "CoRL 2024 · Towel shaping from crumpled states with TransporterNet and joint-probability action inference."
   image: /assets/img/projects/placeholder-1.svg
-  link: "#"
-- title: "[Project Five]"
-  blurb: "[Venue 2025] · One-line description of the project."
+  link: https://proceedings.mlr.press/v270/kadi25a.html
+- title: PlaNet-ClothPick
+  blurb: "IEEE/SICE SII 2024 · Fabric flattening by planning in a learned latent dynamics model."
   image: /assets/img/projects/placeholder-2.svg
-  link: "#"
-- title: "[Project Six]"
-  blurb: "[Venue 2024] · One-line description of the project."
+  link: https://doi.org/10.1109/SII58957.2024.10417545
+- title: Cloth Manipulation Review
+  blurb: "Sensors 2023 · Data-driven robotic manipulation of cloth-like deformable objects: present, challenges and prospects."
   image: /assets/img/projects/placeholder-3.svg
-  link: "#"
+  link: https://doi.org/10.3390/s23052389
