@@ -3,31 +3,42 @@
   items:
     - authors: "H. A. Kadi, J. A. Chandy, L. Figueredo, K. Terzić, P. Caleb-Solly"
       title: "DRAPER: Towards a Robust Robot Deployment and Reliable Evaluation for Quasi-Static Pick-and-Place Cloth-Shaping Neural Controllers"
+      image: /assets/img/papers/draper.jpg
+      website: /projects/draper/
       venue: "IEEE International Conference on Automation Science and Engineering (CASE) 2025"
       links: { paper: "https://doi.org/10.1109/CASE58245.2025.11163865", arXiv: "https://arxiv.org/abs/2409.15159" }
 - year: 2024
   items:
     - authors: "H. A. Kadi, K. Terzić"
       title: "JA-TN: Pick-and-Place Towel Shaping from Crumpled States based on TransporterNet with Joint-Probability Action Inference"
+      image: /assets/img/papers/ja-tn.jpg
+      website: /projects/ja-tn/
       venue: "Conference on Robot Learning (CoRL) 2024, PMLR 270"
       links: { paper: "https://proceedings.mlr.press/v270/kadi25a.html" }
     - authors: "H. A. Kadi, K. Terzić"
       title: "PlaNet-ClothPick: Effective Fabric Flattening Based on Latent Dynamic Planning"
+      image: /assets/img/papers/planet-clothpick.jpg
+      website: /projects/planet-clothpick/
       venue: "IEEE/SICE International Symposium on System Integration (SII) 2024"
       links: { paper: "https://doi.org/10.1109/SII58957.2024.10417545", arXiv: "https://arxiv.org/abs/2303.01345" }
 - year: 2023
   items:
     - authors: "H. A. Kadi, K. Terzić"
       title: "Data-Driven Robotic Manipulation of Cloth-like Deformable Objects: The Present, Challenges and Future Prospects"
+      image: /assets/img/papers/sensors-review.jpg
       venue: "Sensors 23(5):2389, 2023 (review)"
       links: { paper: "https://doi.org/10.3390/s23052389" }
 - year: Preprints
   items:
     - authors: "H. A. Kadi, K. Terzić"
       title: "LaGarNet: Goal-Conditioned Recurrent State-Space Models for Pick-and-Place Garment Flattening"
+      image: /assets/img/papers/lagarnet.jpg
+      website: /projects/lagarnet/
       venue: "arXiv 2025"
       links: { arXiv: "https://arxiv.org/abs/2508.17070" }
     - authors: "H. A. Kadi, K. Terzić"
       title: "Agent-Arena: A General Framework for Evaluating Control Algorithms"
+      image: /assets/img/papers/agent-arena.jpg
+      website: https://github.com/halid1020/agent-arena-v0
       venue: "arXiv 2025"
       links: { arXiv: "https://arxiv.org/abs/2504.06468" }

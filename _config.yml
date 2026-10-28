@@ -15,7 +15,7 @@ address:
   - St Andrews, KY16 9SX, Scotland
 
 email: placeholder@st-andrews.ac.uk
-scholar: https://scholar.google.com/   # replace with the founder's Scholar profile
+scholar: https://scholar.google.com/   # replace with a Scholar profile
 social:
   github: https://github.com/st-cortex-lab
   # x: https://x.com/...
@@ -24,3 +24,8 @@ social:
 
 markdown: kramdown
 exclude: [README.md, Gemfile, Gemfile.lock, vendor, .bundle]
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

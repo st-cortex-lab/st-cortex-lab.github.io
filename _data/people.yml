@@ -1,25 +1,22 @@
 # Photos go in assets/img/people/. Leave `photo` empty to show initials.
-founder:
-  name: Dr Halid A Kadi
-  role: Founder · Leverhulme Early Career Fellow
-  photo:
-  bio: >-
-    Halid works on data-driven robotic manipulation of cloth-like deformable objects,
-    including garment flattening, pick-and-place cloth shaping and robust real-robot
-    deployment of learned controllers.
-  links:
-    web: https://www.st-andrews.ac.uk/computer-science/people/ah390/
-    orcid: https://orcid.org/0000-0001-9290-467X
-    github: https://github.com/halid1020
-    email: ah390@st-andrews.ac.uk
-
-supervisors:
+leads:
   - name: Prof Juan Ye
     role: Professor, School of Computer Science
+    photo: /assets/img/people/jy31.jpg
     links: { web: "https://www.st-andrews.ac.uk/computer-science/people/jy31/" }
   - name: Dr Kasim Terzić
     role: Senior Lecturer, School of Computer Science
+    photo: /assets/img/people/kt54.jpg
     links: { web: "https://www.st-andrews.ac.uk/computer-science/people/kt54/" }
+  - name: Dr Halid A. Kadi
+    role: Leverhulme Trust Early Career Fellow
+    note: Founder & manager of St CORTEX Lab
+    photo:   # no photo on the official profile yet; add assets/img/people/ah390.jpg
+    links:
+      web: https://www.st-andrews.ac.uk/computer-science/people/ah390/
+      orcid: https://orcid.org/0000-0001-9290-467X
+      github: https://github.com/halid1020
+      email: ah390@st-andrews.ac.uk
 
 members:
   - name: "[Member Name]"

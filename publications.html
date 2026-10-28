@@ -15,12 +15,18 @@ title: Publications
       <h2 class="year">{{ y.year }}</h2>
       <ol class="pubs">
         {% for p in y.items %}
-        <li>
-          <p class="pub-title">{{ p.title }}</p>
-          <p class="pub-authors">{{ p.authors | replace: 'H. A. Kadi', '<strong>H. A. Kadi</strong>' }}</p>
-          <p class="pub-venue">{{ p.venue }}
-            {% for l in p.links %}<a class="tag" href="{{ l[1] }}">{{ l[0] }}</a>{% endfor %}
-          </p>
+        <li class="pub-row">
+          {% assign target = p.website | default: p.links.paper | default: p.links.arXiv %}
+          {% if target contains '://' %}{% assign href = target %}{% else %}{% assign href = target | relative_url %}{% endif %}
+          {% if p.image %}<a class="pub-thumb" href="{{ href }}"><img src="{{ p.image | relative_url }}" alt="Figure from {{ p.title }}" loading="lazy"></a>{% endif %}
+          <div>
+            <p class="pub-title">{{ p.title }}</p>
+            <p class="pub-authors">{{ p.authors | replace: 'H. A. Kadi', '<strong>H. A. Kadi</strong>' }}</p>
+            <p class="pub-venue">{{ p.venue }}
+              {% if p.website %}{% if p.website contains '://' %}<a class="tag" href="{{ p.website }}">code</a>{% else %}<a class="tag" href="{{ p.website | relative_url }}">website</a>{% endif %}{% endif %}
+              {% for l in p.links %}<a class="tag" href="{{ l[1] }}">{{ l[0] }}</a>{% endfor %}
+            </p>
+          </div>
         </li>
         {% endfor %}
       </ol>

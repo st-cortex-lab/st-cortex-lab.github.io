@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% assign base = '/assets/img/projects/' | append: page.slug | append: '/' %}
+<section class="page-head project-head">
+  <div class="container narrow">
+    <p class="eyebrow-dark">{{ page.venue }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="project-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <p class="project-authors">{{ page.authors }}</p>
+    <p class="project-affil">{{ page.affiliation }}</p>
+    {% if page.links %}
+    <div class="project-links">
+      {% for l in page.links %}<a class="btn btn-outline" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow project-page">
+    {% for m in page.teaser %}
+      <figure class="project-fig"><img src="{{ base | append: m.src | relative_url }}" alt="{{ m.caption | default: page.title }}" loading="lazy">{% if m.caption %}<figcaption>{{ m.caption }}</figcaption>{% endif %}</figure>
+    {% endfor %}
+
+    <h2>Abstract</h2>
+    <p class="abstract">{{ page.abstract }}</p>
+
+    {% if page.video %}
+    <h2>Video</h2>
+    <video class="project-video" controls preload="metadata" src="{{ page.video | relative_url }}"></video>
+    {% endif %}
+
+    {% for s in page.sections %}
+      <h2>{{ s.title }}</h2>
+      {% if s.text %}<p>{{ s.text }}</p>{% endif %}
+      {% for g in s.groups %}
+        {% if g.title %}<h3>{{ g.title }}</h3>{% endif %}
+        <div class="media-grid media-grid--{{ g.cols | default: 1 }}">
+          {% for m in g.items %}
+          <figure class="project-fig">
+            {% if m.src contains '.mp4' %}<video autoplay loop muted playsinline src="{{ base | append: m.src | relative_url }}"></video>
+            {% else %}<img src="{{ base | append: m.src | relative_url }}" alt="{{ m.caption | default: s.title }}" loading="lazy">{% endif %}
+            {% if m.caption %}<figcaption>{{ m.caption }}</figcaption>{% endif %}
+          </figure>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endfor %}
+
+    {{ content }}
+
+    {% if page.bibtex %}
+    <h2>BibTeX</h2>
+    <pre class="bibtex"><code>{{ page.bibtex | strip }}</code></pre>
+    {% endif %}
+  </div>
+</section>

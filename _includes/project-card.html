@@ -1,5 +1,6 @@
 {% assign pr = include.project %}
-<a class="project-card" href="{{ pr.link }}">
+{% if pr.link contains '://' %}{% assign href = pr.link %}{% else %}{% assign href = pr.link | relative_url %}{% endif %}
+<a class="project-card" href="{{ href }}">
   <div class="project-media"><img src="{{ pr.image | relative_url }}" alt="{{ pr.title }}" loading="lazy"></div>
   <div class="project-body">
     <h3>{{ pr.title }}</h3>

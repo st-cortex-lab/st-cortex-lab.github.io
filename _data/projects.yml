@@ -1,25 +1,25 @@
-# Home-page tiles. Images (gif/jpg/png) go in assets/img/projects/.
+# Home-page tiles. Images go in assets/img/papers/ (figures) or assets/img/projects/.
 - title: LaGarNet
   blurb: "arXiv 2025 · Goal-conditioned recurrent state-space models for pick-and-place garment flattening."
-  image: /assets/img/projects/placeholder-1.svg
-  link: https://arxiv.org/abs/2508.17070
+  image: /assets/img/papers/lagarnet.jpg
+  link: /projects/lagarnet/
 - title: DRAPER
   blurb: "IEEE CASE 2025 · Robust real-robot deployment and reliable evaluation of pick-and-place cloth-shaping controllers."
-  image: /assets/img/projects/placeholder-2.svg
-  link: https://doi.org/10.1109/CASE58245.2025.11163865
+  image: /assets/img/papers/draper.jpg
+  link: /projects/draper/
 - title: Agent-Arena
   blurb: "arXiv 2025 · A general framework for evaluating control algorithms."
-  image: /assets/img/projects/placeholder-3.svg
-  link: https://arxiv.org/abs/2504.06468
+  image: /assets/img/papers/agent-arena.jpg
+  link: https://github.com/halid1020/agent-arena-v0
 - title: JA-TN
   blurb: "CoRL 2024 · Towel shaping from crumpled states with TransporterNet and joint-probability action inference."
-  image: /assets/img/projects/placeholder-1.svg
-  link: https://proceedings.mlr.press/v270/kadi25a.html
+  image: /assets/img/papers/ja-tn.jpg
+  link: /projects/ja-tn/
 - title: PlaNet-ClothPick
   blurb: "IEEE/SICE SII 2024 · Fabric flattening by planning in a learned latent dynamics model."
-  image: /assets/img/projects/placeholder-2.svg
-  link: https://doi.org/10.1109/SII58957.2024.10417545
+  image: /assets/img/papers/planet-clothpick.jpg
+  link: /projects/planet-clothpick/
 - title: Cloth Manipulation Review
   blurb: "Sensors 2023 · Data-driven robotic manipulation of cloth-like deformable objects: present, challenges and prospects."
-  image: /assets/img/projects/placeholder-3.svg
+  image: /assets/img/papers/sensors-review.jpg
   link: https://doi.org/10.3390/s23052389
