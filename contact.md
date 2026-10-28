@@ -16,6 +16,8 @@ When you get in touch, include your CV, a short statement of research interests,
 
 **Email:** [{{ site.email }}](mailto:{{ site.email }})
 
+**GitHub:** [github.com/st-cortex-lab]({{ site.social.github }}) — code, datasets and project pages
+
 **Address:** {{ site.school }}, {{ site.university.name }}, {{ site.address | join: ', ' }}
 
 </div></section>

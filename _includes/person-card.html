@@ -2,7 +2,7 @@
 <article class="person-card{% if include.large %} person-card--large{% endif %}">
   <div class="avatar">
     {% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
-    {% else %}{% assign parts = p.name | remove: '[' | remove: ']' | split: ' ' %}<span>{% for w in parts limit:2 %}{{ w | slice: 0 }}{% endfor %}</span>{% endif %}
+    {% else %}{% assign parts = p.name | remove: '[' | remove: ']' | remove_first: 'Prof ' | remove_first: 'Dr ' | split: ' ' %}<span>{{ parts.first | slice: 0 }}{% if parts.size > 1 %}{{ parts.last | slice: 0 }}{% endif %}</span>{% endif %}
   </div>
   <div class="person-body">
     <h3>{{ p.name }}</h3>

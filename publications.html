@@ -4,8 +4,8 @@ title: Publications
 ---
 <section class="page-head">
   <div class="container">
-    <h1>Publications</h1>
-    <p class="lead">For the complete and up-to-date list, see <a href="{{ site.scholar }}">Google Scholar</a>.</p>
+    <h1>Published papers</h1>
+    <p class="lead">Code for our projects lives on <a href="{{ site.social.github }}">GitHub</a>.</p>
   </div>
 </section>
 
@@ -17,7 +17,7 @@ title: Publications
         {% for p in y.items %}
         <li>
           <p class="pub-title">{{ p.title }}</p>
-          <p class="pub-authors">{{ p.authors }}</p>
+          <p class="pub-authors">{{ p.authors | replace: 'H. A. Kadi', '<strong>H. A. Kadi</strong>' }}</p>
           <p class="pub-venue">{{ p.venue }}
             {% for l in p.links %}<a class="tag" href="{{ l[1] }}">{{ l[0] }}</a>{% endfor %}
           </p>

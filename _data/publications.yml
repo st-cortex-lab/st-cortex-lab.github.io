@@ -1,13 +1,33 @@
-# Grouped by year, newest first. Remove this file's entries to show only the Scholar link.
-- year: 2026
-  items:
-    - authors: "[A. Author], [B. Author], [C. Author]"
-      title: "[Paper title]"
-      venue: "[Conference / Journal 2026]"
-      links: { paper: "#", project: "#", code: "#" }
+# Grouped by year, newest first. `links` render as tags: label -> URL.
 - year: 2025
   items:
-    - authors: "[A. Author], [B. Author]"
-      title: "[Paper title]"
-      venue: "[Conference / Journal 2025]"
-      links: { paper: "#" }
+    - authors: "H. A. Kadi, J. A. Chandy, L. Figueredo, K. Terzić, P. Caleb-Solly"
+      title: "DRAPER: Towards a Robust Robot Deployment and Reliable Evaluation for Quasi-Static Pick-and-Place Cloth-Shaping Neural Controllers"
+      venue: "IEEE International Conference on Automation Science and Engineering (CASE) 2025"
+      links: { paper: "https://doi.org/10.1109/CASE58245.2025.11163865", arXiv: "https://arxiv.org/abs/2409.15159" }
+- year: 2024
+  items:
+    - authors: "H. A. Kadi, K. Terzić"
+      title: "JA-TN: Pick-and-Place Towel Shaping from Crumpled States based on TransporterNet with Joint-Probability Action Inference"
+      venue: "Conference on Robot Learning (CoRL) 2024, PMLR 270"
+      links: { paper: "https://proceedings.mlr.press/v270/kadi25a.html" }
+    - authors: "H. A. Kadi, K. Terzić"
+      title: "PlaNet-ClothPick: Effective Fabric Flattening Based on Latent Dynamic Planning"
+      venue: "IEEE/SICE International Symposium on System Integration (SII) 2024"
+      links: { paper: "https://doi.org/10.1109/SII58957.2024.10417545", arXiv: "https://arxiv.org/abs/2303.01345" }
+- year: 2023
+  items:
+    - authors: "H. A. Kadi, K. Terzić"
+      title: "Data-Driven Robotic Manipulation of Cloth-like Deformable Objects: The Present, Challenges and Future Prospects"
+      venue: "Sensors 23(5):2389, 2023 (review)"
+      links: { paper: "https://doi.org/10.3390/s23052389" }
+- year: Preprints
+  items:
+    - authors: "H. A. Kadi, K. Terzić"
+      title: "LaGarNet: Goal-Conditioned Recurrent State-Space Models for Pick-and-Place Garment Flattening"
+      venue: "arXiv 2025"
+      links: { arXiv: "https://arxiv.org/abs/2508.17070" }
+    - authors: "H. A. Kadi, K. Terzić"
+      title: "Agent-Arena: A General Framework for Evaluating Control Algorithms"
+      venue: "arXiv 2025"
+      links: { arXiv: "https://arxiv.org/abs/2504.06468" }

@@ -8,8 +8,15 @@ title: People
 
 <section class="section">
   <div class="container">
-    <h2 class="label">Director</h2>
-    {% include person-card.html person=site.data.people.director large=true %}
+    <h2 class="label">Founder</h2>
+    {% include person-card.html person=site.data.people.founder large=true %}
+
+    {% if site.data.people.supervisors.size > 0 %}
+    <h2 class="label">Supervisory team</h2>
+    <div class="people-grid">
+      {% for p in site.data.people.supervisors %}{% include person-card.html person=p %}{% endfor %}
+    </div>
+    {% endif %}
 
     <h2 class="label">Meet the team</h2>
     <div class="people-grid">
