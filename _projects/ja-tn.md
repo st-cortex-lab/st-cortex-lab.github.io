@@ -8,9 +8,9 @@ affiliation: University of St Andrews
 links:
   - { label: Paper, url: "https://proceedings.mlr.press/v270/kadi25a.html" }
   - { label: OpenReview, url: "https://openreview.net/forum?id=SW8ntpJl0E" }
-  - { label: Benchmarks and Oracles, url: "https://github.com/halid1020/softgym" }
-  - { label: Method, url: "https://github.com/halid1020/agent-arena-v0/tree/main/agent_arena/agent/bc/transporter" }
-  - { label: Configurations, url: "https://github.com/halid1020/agent-arena-v0/tree/main/agent_arena/configuration/train_and_evaluate/ja-tn" }
+  - { label: Benchmarks and Oracles, url: "https://github.com/st-cortex-lab/softgym" }
+  - { label: Method, url: "https://github.com/st-cortex-lab/JA-TN/tree/main/ja_tn" }
+  - { label: Configurations, url: "https://github.com/st-cortex-lab/JA-TN/tree/main/configuration" }
 abstract: >-
   Towel manipulation is a crucial step towards more general cloth manipulation. However, folding a towel from an arbitrarily crumpled state and recovering from a failed folding step remain critical challenges in robotics. We propose joint-probability action inference JA-TN, as a way to improve TransporterNet’s operational efficiency; to our knowledge, this is the first single data-driven policy to achieve various types of folding from most crumpled states. We present three benchmark domains with a set of shaping tasks and the corresponding oracle policies to facilitate the further development of the field. We also present a simulation-to-reality transfer procedure for vision-based deep learning controllers by processing and augmenting RGB and/or depth images. We also demonstrate JA-TN’s ability to integrate with a real camera and a UR3e robot arm, showcasing the method’s applicability to real-world tasks.
 sections:

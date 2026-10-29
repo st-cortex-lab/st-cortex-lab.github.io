@@ -7,6 +7,7 @@ authors: Halid Abdulrahim Kadi and Kasim Terzić
 affiliation: University of St Andrews
 links:
   - { label: arXiv, url: "https://arxiv.org/abs/2508.17070" }
+  - { label: Code, url: "https://github.com/st-cortex-lab/LaGarNet" }
   - { label: Dataset & Models, url: "https://drive.google.com/drive/folders/1XZmaZHlttVr4IizSIaFIwCtVYrEf-SkZ?usp=sharing" }
 abstract: >-
   We present a novel goal-conditioned recurrent state space (GC-RSSM) model capable of learning latent dynamics of pick-and-place garment manipulation. Our proposed method LaGarNet matches the state-of-the-art performance of mesh-based methods, marking the first successful application of state-space models on complex garments. LaGarNet trains on a coverage-alignment reward and a dataset collected through a general procedure supported by a random policy and a diffusion policy learned from few human demonstrations; it substantially reduces the inductive biases introduced in the previous similar methods. We demonstrate that a single-policy LaGarNet achieves flattening on four different types of garments in both real-world and simulation settings.

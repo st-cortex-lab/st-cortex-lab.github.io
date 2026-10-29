@@ -14,7 +14,11 @@ When you get in touch, include your CV, a short statement of research interests,
 
 ## Get in touch
 
-**Email:** [{{ site.email }}](mailto:{{ site.email }})
+**Email:**
+
+- Prof Juan Ye — [jy31@st-andrews.ac.uk](mailto:jy31@st-andrews.ac.uk)
+- Dr Kasim Terzić — [kt54@st-andrews.ac.uk](mailto:kt54@st-andrews.ac.uk)
+- Dr Halid A. Kadi — [ah390@st-andrews.ac.uk](mailto:ah390@st-andrews.ac.uk)
 
 **GitHub:** [github.com/st-cortex-lab]({{ site.social.github }}) — code, datasets and project pages
 

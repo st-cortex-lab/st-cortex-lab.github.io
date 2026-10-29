@@ -10,7 +10,7 @@
 - title: Agent-Arena
   blurb: "arXiv 2025 · A general framework for evaluating control algorithms."
   image: /assets/img/papers/agent-arena.jpg
-  link: https://github.com/halid1020/agent-arena-v0
+  link: https://github.com/st-cortex-lab/actoris_harena
 - title: JA-TN
   blurb: "CoRL 2024 · Towel shaping from crumpled states with TransporterNet and joint-probability action inference."
   image: /assets/img/papers/ja-tn.jpg

@@ -8,8 +8,8 @@ affiliation: University of St Andrews
 links:
   - { label: Paper, url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10417545" }
   - { label: arXiv, url: "https://arxiv.org/abs/2303.01345" }
-  - { label: Benchmarks and Oracles, url: "https://github.com/halid1020/softgym-deepcloth" }
-  - { label: Method & Dataset, url: "https://github.com/halid1020/agent-arena-v0/blob/main/projects/planet-clothpick.md" }
+  - { label: Benchmarks and Oracles, url: "https://github.com/st-cortex-lab/softgym" }
+  - { label: Code, url: "https://github.com/st-cortex-lab/PlaNet-ClothPick" }
 abstract: >-
   Why do Recurrent State Space Models such as PlaNet fail at cloth manipulation tasks? Recent work has attributed this to the blurry prediction of the observation, which makes it difficult to plan directly in the latent space. This paper explores the reasons behind this by applying PlaNet in the pick-and-place fabric-flattening domain. We find that the sharp discontinuity of the transition function on the contour of the fabric makes it difficult to learn an accurate latent dynamic model, causing the MPC planner to produce pick actions slightly outside of the article. By limiting picking space on the cloth mask and training on specially engineered trajectories, our mesh-free PlaNet-ClothPick surpasses visual planning and policy learning methods on principal metrics in simulation, achieving similar performance as state-of-the-art mesh-based planning approaches. Notably, our model exhibits a faster action inference and requires fewer transitional model parameters than the state-of-the-art robotic systems in this domain.
 sections:

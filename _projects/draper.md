@@ -8,10 +8,10 @@ affiliation: University of St Andrews and University of Nottingham
 links:
   - { label: Paper, url: "https://doi.org/10.1109/CASE58245.2025.11163865" }
   - { label: arXiv, url: "https://arxiv.org/abs/2409.15159" }
-  - { label: Benchmarks and Oracles, url: "https://github.com/halid1020/softgym-deepcloth" }
-  - { label: Robot Control Scripts, url: "https://github.com/halid1020/robot_control_cloth" }
-  - { label: Diffusion Policy, url: "https://github.com/halid1020/agent-arena-v0/tree/main/agent_arena/agent/bc/diffusion" }
-  - { label: Configurations, url: "https://github.com/halid1020/agent-arena-v0/tree/main/agent_arena/configuration/train_and_evaluate/diffusion_policy" }
+  - { label: Benchmarks and Oracles, url: "https://github.com/st-cortex-lab/softgym" }
+  - { label: Robot Control Scripts, url: "https://github.com/st-cortex-lab/DRAPER" }
+  - { label: Diffusion Policy, url: "https://github.com/st-cortex-lab/actoris_harena/tree/main/agent_arena/agent/bc/diffusion" }
+  - { label: Configurations, url: "https://github.com/st-cortex-lab/actoris_harena/tree/main/agent_arena/configuration/train_and_evaluate/diffusion_policy" }
 teaser:
   - { src: 01.jpg }
 video: /assets/video/draper.mp4

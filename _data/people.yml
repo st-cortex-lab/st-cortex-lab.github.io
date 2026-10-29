@@ -2,12 +2,20 @@
 leads:
   - name: Prof Juan Ye
     role: Professor, School of Computer Science
+    note: Co-founder of St CORTEX Lab
     photo: /assets/img/people/jy31.jpg
-    links: { web: "https://www.st-andrews.ac.uk/computer-science/people/jy31/" }
+    links:
+      web: https://www.st-andrews.ac.uk/computer-science/people/jy31/
+      orcid: https://orcid.org/0000-0002-2838-6836
+      email: jy31@st-andrews.ac.uk
   - name: Dr Kasim Terzić
     role: Senior Lecturer, School of Computer Science
+    note: Co-founder of St CORTEX Lab
     photo: /assets/img/people/kt54.jpg
-    links: { web: "https://www.st-andrews.ac.uk/computer-science/people/kt54/" }
+    links:
+      web: https://www.st-andrews.ac.uk/computer-science/people/kt54/
+      orcid: https://orcid.org/0000-0001-6692-209X
+      email: kt54@st-andrews.ac.uk
   - name: Dr Halid A. Kadi
     role: Leverhulme Trust Early Career Fellow
     note: Founder & manager of St CORTEX Lab
@@ -19,18 +27,10 @@ leads:
       email: ah390@st-andrews.ac.uk
 
 members:
-  - name: "[Member Name]"
-    role: Research Fellow
-    links: { web: "#", email: "placeholder@st-andrews.ac.uk", linkedin: "#" }
-  - name: "[Member Name]"
-    role: Ph.D. Student
-    links: { web: "#", email: "placeholder@st-andrews.ac.uk", linkedin: "#" }
-  - name: "[Member Name]"
-    role: Ph.D. Student
-    links: { web: "#", email: "placeholder@st-andrews.ac.uk" }
-  - name: "[Member Name]"
-    role: M.Sc. Student
-    links: { email: "placeholder@st-andrews.ac.uk" }
+  - name: Henry Chandler
+    role: Undergraduate Research Student
+  - name: Emily Pondaven
+    role: Undergraduate Research Student
 
 # Add entries here as people graduate or leave; the sections stay hidden while empty.
 alumni: []

@@ -6,7 +6,7 @@
       image: /assets/img/papers/draper.jpg
       website: /projects/draper/
       venue: "IEEE International Conference on Automation Science and Engineering (CASE) 2025"
-      links: { paper: "https://doi.org/10.1109/CASE58245.2025.11163865", arXiv: "https://arxiv.org/abs/2409.15159" }
+      links: { paper: "https://doi.org/10.1109/CASE58245.2025.11163865", arXiv: "https://arxiv.org/abs/2409.15159", code: "https://github.com/st-cortex-lab/DRAPER" }
 - year: 2024
   items:
     - authors: "H. A. Kadi, K. Terzić"
@@ -14,13 +14,13 @@
       image: /assets/img/papers/ja-tn.jpg
       website: /projects/ja-tn/
       venue: "Conference on Robot Learning (CoRL) 2024, PMLR 270"
-      links: { paper: "https://proceedings.mlr.press/v270/kadi25a.html" }
+      links: { paper: "https://proceedings.mlr.press/v270/kadi25a.html", code: "https://github.com/st-cortex-lab/JA-TN" }
     - authors: "H. A. Kadi, K. Terzić"
       title: "PlaNet-ClothPick: Effective Fabric Flattening Based on Latent Dynamic Planning"
       image: /assets/img/papers/planet-clothpick.jpg
       website: /projects/planet-clothpick/
       venue: "IEEE/SICE International Symposium on System Integration (SII) 2024"
-      links: { paper: "https://doi.org/10.1109/SII58957.2024.10417545", arXiv: "https://arxiv.org/abs/2303.01345" }
+      links: { paper: "https://doi.org/10.1109/SII58957.2024.10417545", arXiv: "https://arxiv.org/abs/2303.01345", code: "https://github.com/st-cortex-lab/PlaNet-ClothPick" }
 - year: 2023
   items:
     - authors: "H. A. Kadi, K. Terzić"
@@ -35,10 +35,10 @@
       image: /assets/img/papers/lagarnet.jpg
       website: /projects/lagarnet/
       venue: "arXiv 2025"
-      links: { arXiv: "https://arxiv.org/abs/2508.17070" }
+      links: { arXiv: "https://arxiv.org/abs/2508.17070", code: "https://github.com/st-cortex-lab/LaGarNet" }
     - authors: "H. A. Kadi, K. Terzić"
       title: "Agent-Arena: A General Framework for Evaluating Control Algorithms"
       image: /assets/img/papers/agent-arena.jpg
-      website: https://github.com/halid1020/agent-arena-v0
+      website: https://github.com/st-cortex-lab/actoris_harena
       venue: "arXiv 2025"
       links: { arXiv: "https://arxiv.org/abs/2504.06468" }
