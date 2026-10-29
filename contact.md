@@ -8,7 +8,7 @@ title: Contact
 
 ## Prospective students
 
-We welcome enquiries from prospective Ph.D. students, M.Sc. and undergraduate project students, and visiting researchers interested in robot dexterity and deformable object manipulation. Ph.D. applications go through the [School of Computer Science postgraduate research programme](https://www.st-andrews.ac.uk/computer-science/prospective/pgr/); please get in touch before applying so we can discuss a project and funding options.
+We welcome enquiries from prospective PhD students, MSc and undergraduate project students, and visiting researchers interested in robot dexterity and deformable object manipulation. PhD applications go through the [School of Computer Science postgraduate research programme](https://www.st-andrews.ac.uk/computer-science/prospective/pgr/); please get in touch before applying so we can discuss a project and funding options.
 
 When you get in touch, include your CV, a short statement of research interests, and which of our [research themes]({{ '/research.html' | relative_url }}) you'd like to work on.
 
