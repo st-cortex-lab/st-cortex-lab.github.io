@@ -19,7 +19,7 @@ leads:
   - name: Dr Halid A. Kadi
     role: Leverhulme Trust Early Career Fellow
     note: Founder & manager of St CORTEX Lab
-    photo:   # no photo on the official profile yet; add assets/img/people/ah390.jpg
+    photo: /assets/img/people/ah390.jpg
     links:
       web: https://www.st-andrews.ac.uk/computer-science/people/ah390/
       orcid: https://orcid.org/0000-0001-9290-467X
