@@ -259,3 +259,11 @@ address { font-style: normal; margin-bottom: 1em; }
   .pub-row { grid-template-columns: 1fr; gap: 10px; }
   .pub-thumb img { height: 160px; }
 }
+
+/* Results tables on a project page (generated, e.g. _includes/c2r2_results.html) */
+.project-page table.results { width: 100%; border-collapse: collapse; margin: 8px 0 28px; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.project-page table.results th, .project-page table.results td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: center; }
+.project-page table.results th:first-child, .project-page table.results td:first-child { text-align: left; }
+.project-page table.results thead th { color: var(--ink-soft); font-weight: 600; }
+.project-page table.results em { color: var(--ink-soft); }
+@media (max-width: 640px) { .project-page table.results { font-size: .82rem; } .project-page table.results th, .project-page table.results td { padding: 5px 4px; } }

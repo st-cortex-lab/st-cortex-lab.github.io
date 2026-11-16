@@ -1,4 +1,8 @@
 # Home-page tiles. Images go in assets/img/papers/ (figures) or assets/img/projects/.
+- title: C2R²-JawTN
+  blurb: "Preprint 2026 · Imitation pick and place with parallel grippers: JawRaven, printable scenes and a coarse-to-fine Transporter."
+  image: /assets/img/papers/c2r2-jawtn.jpg
+  link: /projects/c2r2-jawtn/
 - title: LaGarNet
   blurb: "arXiv 2025 · Goal-conditioned recurrent state-space models for pick-and-place garment flattening."
   image: /assets/img/papers/lagarnet.jpg
