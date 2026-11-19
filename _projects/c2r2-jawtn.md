@@ -25,6 +25,14 @@ sections:
       - items:
           - { src: 05.jpg, caption: "The architecture: a coarse Transporter, then two refinement levels on finer, turned crops, and a depth network for both heights; pick, key, query and place outputs each in their own colour" }
           - { src: 06.jpg, caption: "Every map the networks compute for one held-out kits step that places the letter G, level by level, to the final action" }
+  - title: Policies compared on the hard tasks
+    groups:
+      - cols: 2
+        items:
+          - { src: cmp_stack-block-pyramid_ep010.gif, caption: "Stack a pyramid, held-out episode 10: the same scene for every policy; only C2R²-JawTN completes it" }
+          - { src: cmp_stack-block-pyramid_ep011.gif, caption: "Stack a pyramid, held-out episode 11: only C2R²-JawTN completes it" }
+          - { src: cmp_assembling-kits_ep001.gif, caption: "Assemble kits, held-out episode 1: only C2R²-JawTN seats every piece" }
+          - { src: cmp_assembling-kits_ep003.gif, caption: "Assemble kits, held-out episode 3: only C2R²-JawTN seats every piece" }
   - title: Real-JawRaven
     groups:
       - items:
