@@ -27,12 +27,30 @@ sections:
           - { src: 06.jpg, caption: "Every map the networks compute for one held-out kits step that places the letter G, level by level, to the final action" }
   - title: Policies compared on the hard tasks
     groups:
-      - cols: 2
+      - title: "Stack a pyramid, held-out episode 10"
+        cols: 3
         items:
-          - { src: cmp_stack-block-pyramid_ep010.gif, caption: "Stack a pyramid, held-out episode 10: the same scene for every policy; only C2R²-JawTN completes it" }
-          - { src: cmp_stack-block-pyramid_ep011.gif, caption: "Stack a pyramid, held-out episode 11: only C2R²-JawTN completes it" }
-          - { src: cmp_assembling-kits_ep001.gif, caption: "Assemble kits, held-out episode 1: only C2R²-JawTN seats every piece" }
-          - { src: cmp_assembling-kits_ep003.gif, caption: "Assemble kits, held-out episode 3: only C2R²-JawTN seats every piece" }
+          - { src: cmp_stack-block-pyramid_ep010_px_naive.gif, caption: "naive JawTN: fails" }
+          - { src: cmp_stack-block-pyramid_ep010_etn_base.gif, caption: "Equivariant TN: fails" }
+          - { src: cmp_stack-block-pyramid_ep010_r13_c2r2.gif, caption: "C2R²-JawTN (ours): succeeds" }
+      - title: "Stack a pyramid, held-out episode 11"
+        cols: 3
+        items:
+          - { src: cmp_stack-block-pyramid_ep011_px_naive.gif, caption: "naive JawTN: fails" }
+          - { src: cmp_stack-block-pyramid_ep011_etn_base.gif, caption: "Equivariant TN: fails" }
+          - { src: cmp_stack-block-pyramid_ep011_r13_c2r2.gif, caption: "C2R²-JawTN (ours): succeeds" }
+      - title: "Assemble kits, held-out episode 1"
+        cols: 3
+        items:
+          - { src: cmp_assembling-kits_ep001_px_naive.gif, caption: "naive JawTN: fails" }
+          - { src: cmp_assembling-kits_ep001_etn_base.gif, caption: "Equivariant TN: fails" }
+          - { src: cmp_assembling-kits_ep001_r13_c2r2.gif, caption: "C2R²-JawTN (ours): succeeds" }
+      - title: "Assemble kits, held-out episode 3"
+        cols: 3
+        items:
+          - { src: cmp_assembling-kits_ep003_px_naive.gif, caption: "naive JawTN: fails" }
+          - { src: cmp_assembling-kits_ep003_etn_base.gif, caption: "Equivariant TN: fails" }
+          - { src: cmp_assembling-kits_ep003_r13_c2r2.gif, caption: "C2R²-JawTN (ours): succeeds" }
   - title: Real-JawRaven
     groups:
       - items:
